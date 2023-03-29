@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "gossips/build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
