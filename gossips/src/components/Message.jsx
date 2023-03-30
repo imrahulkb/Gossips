@@ -1,7 +1,11 @@
 import React from "react";
-import { Card } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 const Message = (props) => {
-  return <div>{props.name}</div>;
+  return (
+    <div>
+      <Button>{props.name}</Button>
+    </div>
+  );
 };
 
 export default Message;
